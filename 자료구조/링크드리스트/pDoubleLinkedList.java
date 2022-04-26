@@ -1,4 +1,4 @@
-package 자료구조;
+package 자료구조.링크드리스트;
 
 import java.util.*;
 

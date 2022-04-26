@@ -1,7 +1,6 @@
-package 자료구조;
-import java.util.*;
+package 자료구조.링크드리스트;
 
-import javax.crypto.spec.PBEKeySpec;
+import java.util.*;
 
 /* 링크드리스트의 특징
    노드(하나의 데이터 / |data|pointer|로 구성) -> |데이터|다음데이터의주소| --> |데이터|다음데이터의주소| 식으로 연결됨

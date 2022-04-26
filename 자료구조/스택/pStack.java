@@ -1,4 +1,4 @@
-package 자료구조;
+package 자료구조.스택;
 
 /* 제네릭 형식으로 선언을 하여 어떠한 자료형으로도 넣을 수 있도록 해줌
    스택의 기본적인 구조 LIFO(Last in First Out) 
