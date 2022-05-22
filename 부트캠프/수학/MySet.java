@@ -74,11 +74,13 @@ class Set_Mine {
                 result.add(itemA);
             }
         }
+
+        return result;
     } 
 }
 
 public class MySet {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         
     }    
 }

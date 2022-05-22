@@ -2,7 +2,6 @@ package 부트캠프.과제;
 
 import java.util.*;
 
-import javax.print.CancelablePrintJob;
 
 public class Calander {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class Calander {
         Calendar start_Day = Calendar.getInstance();
         Calendar end_Day = Calendar.getInstance();
 
-
+        sc.close();
     }    
 }
 

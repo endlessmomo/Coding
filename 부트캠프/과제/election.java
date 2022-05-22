@@ -31,10 +31,10 @@ public class election {
     }   
 
     public static void election_relay(int voteNumber, int currentVote, int[] candidate_count){
-        System.out.printf("[투표 진행율] : %s%%, %d명 투표 => %s\n", String.format("%02f", (float)currentVote/total_vote_count*100), currentVote, candidate_name[voteNumber]);
+        System.out.printf("[투표 진행율] : %s%%, %d명 투표 => %s\n", String.format("%.02f", (float)currentVote/total_vote_count*100), currentVote, candidate_name[voteNumber]);
     
         for(int i=0; i < candidate_name.length; i++){
-            System.out.printf("[기호 : %d] %s : %s%%, (투표수 : %d)\n", i+1, candidate_name[i], String.format("%2f", (float)candidate_count[i]/total_vote_count*100), candidate_count[i]);
+            System.out.printf("[기호 : %d] %s : %s%%, (투표수 : %d)\n", i+1, candidate_name[i], String.format("%.2f", (float)candidate_count[i]/total_vote_count*100), candidate_count[i]);
         }
     }
 }
